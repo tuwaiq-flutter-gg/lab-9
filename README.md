@@ -1,16 +1,9 @@
-# lab9
+# lab-9
 
-A new Flutter project.
+Using Flutter to create the Location App, the design is below, you can be creative. Still, you need to stick to the main objects in the image.
 
-## Getting Started
+### YOU should enable the swipe on the Menu & Category section in the Home page.
 
-This project is a starting point for a Flutter application.
+Note: Name your app Your name-lab9
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+A figma file is included

@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
+
 import 'package:hadeel_lab9/components/CustomTextField.dart';
 import 'package:hadeel_lab9/components/FoodMenu.dart';
-import 'package:hadeel_lab9/components/FoodMenuCategory.dart';
+
 import 'package:hadeel_lab9/components/RestaurantCard.dart';
 
 import 'package:hadeel_lab9/components/categoryCard.dart';
-import 'package:hadeel_lab9/components/customButton.dart';
-import 'package:hadeel_lab9/components/customTextButton.dart';
+
 import 'package:hadeel_lab9/components/sectionHeadline.dart';
 
 class Home extends StatelessWidget {

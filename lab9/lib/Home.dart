@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:lab9/My_List.dart';
+import 'package:lab9/Profile.dart';
 import 'package:lab9/camponant/contaner_Home.dart';
 import 'package:lab9/order.dart';
 
@@ -16,6 +18,8 @@ class _Home_PageState extends State<Home_Page> {
   List pages = [
     Home(),
     Order(),
+    My_List(),
+    Profile(),
   ];
 
   @override

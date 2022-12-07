@@ -38,6 +38,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   get: ^4.6.5
   like_button: ^2.0.5
+  sleek_button: ^0.2.0
+  msh_checkbox: ^1.2.1
 
 dev_dependencies:
   flutter_test:

@@ -4,8 +4,8 @@ import 'package:flutter/src/widgets/framework.dart';
 import 'package:lab9/camponant/order_page.dart';
 
 
-class Order extends StatelessWidget {
-  const Order({super.key});
+class My_List extends StatelessWidget {
+  const My_List({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -34,9 +34,9 @@ class Order extends StatelessWidget {
                         icon: Icon(Icons.arrow_back_ios)),
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(right: 80),
+                    padding: const EdgeInsets.only(right: 120),
                     child: Text(
-                      "Review Food",
+                      "My List",
                       style: TextStyle(fontSize: 30),
                     ),
                   )
@@ -44,10 +44,10 @@ class Order extends StatelessWidget {
               ),
             ),
          
-            order(),
-            order(),
-            order(),
-            order(),
+            order2(),
+            order2(),
+            order2(),
+            order2(),
          
               SizedBox(
                 height: 270,

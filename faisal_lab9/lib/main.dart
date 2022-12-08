@@ -4,8 +4,11 @@ import 'package:faisal_lab9/src/account.dart';
 import 'package:faisal_lab9/src/changePassword.dart';
 import 'package:faisal_lab9/src/home.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 Color or = Color(0xffD35400);
+Color gr = Color(0xffECF0F1);
+
 void main() {
   runApp(const MyApp());
 }
@@ -17,8 +20,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // ignore: prefer_const_constructors
-    return MaterialApp(
-      home: home(),
+    return GetMaterialApp(
+      home: loginpage(),
       debugShowCheckedModeBanner: false,
     );
   }

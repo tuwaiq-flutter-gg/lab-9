@@ -2,9 +2,11 @@
 
 import 'package:faisal_lab9/comp/accountlist.dart';
 import 'package:faisal_lab9/comp/buttonComp.dart';
+import 'package:faisal_lab9/src/changePassword.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:get/get.dart';
 
 class account extends StatelessWidget {
   const account({super.key});
@@ -52,7 +54,13 @@ class account extends StatelessWidget {
               accountlist(
                 name: "Contact Us",
               ),
-              Expanded(child: butooncomp(title: "save")),
+              Expanded(
+                  child: butooncomp(
+                title: "save",
+                onpress: () {
+                  Get.to(changepass());
+                },
+              )),
             ],
           ),
         ),

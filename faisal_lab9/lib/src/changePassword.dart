@@ -1,9 +1,11 @@
 import 'package:faisal_lab9/comp/Title.dart';
 import 'package:faisal_lab9/comp/buttonComp.dart';
 import 'package:faisal_lab9/comp/textfield.dart';
+import 'package:faisal_lab9/src/account.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:get/get.dart';
 
 class changepass extends StatelessWidget {
   const changepass({super.key});
@@ -46,7 +48,12 @@ class changepass extends StatelessWidget {
             textF(title: "Enter New Password"),
             textF(title: "Re-enter New Password"),
 
-            butooncomp(title: "Save"),
+            butooncomp(
+              title: "Save",
+              onpress: () {
+                Get.back();
+              },
+            ),
           ],
         ),
       ),

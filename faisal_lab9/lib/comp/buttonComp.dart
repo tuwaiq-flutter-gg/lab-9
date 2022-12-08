@@ -6,8 +6,9 @@ import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
 class butooncomp extends StatelessWidget {
-  const butooncomp({super.key, required this.title});
+  const butooncomp({super.key, required this.title, required this.onpress});
   final String title;
+  final Function() onpress;
   @override
   Widget build(BuildContext context) {
     return Align(
@@ -20,7 +21,7 @@ class butooncomp extends StatelessWidget {
             ),
             backgroundColor: or,
           ),
-          onPressed: () {},
+          onPressed: onpress,
           child: Text(
             title.toString(),
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),

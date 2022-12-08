@@ -8,12 +8,10 @@ class order extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Column(
-        children: [
-          Row(children: [Image.asset("images/")]),
-          Row(children: [Image.asset("images/")]),
-          Row(children: [Image.asset("images/")]),
-          ],
+      child: Center(
+        child: Column(
+          children: [Text("Not ready")],
+        ),
       ),
     );
   }

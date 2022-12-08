@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors, file_names, prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
+import 'package:sharif_lab9/components/Button.dart';
 import 'package:sharif_lab9/components/OrderItem.dart';
 
 class Order extends StatelessWidget {
@@ -36,6 +37,13 @@ class Order extends StatelessWidget {
             OrderItem(
               like: false,
               unlike: false,
+            ),
+            SizedBox(
+              height: 150,
+            ),
+            CustomButton(
+              title: 'Send',
+              press: () {},
             ),
           ],
         ),

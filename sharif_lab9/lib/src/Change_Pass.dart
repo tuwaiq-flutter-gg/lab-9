@@ -22,7 +22,7 @@ class ChangePass extends StatelessWidget {
         elevation: 0,
         leading: IconButton(
             onPressed: () {
-              //Navigator.pop(context);
+              Get.to(Home());
             },
             icon: Icon(Icons.arrow_back_ios_new)),
       ),
